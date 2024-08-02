@@ -1,0 +1,147 @@
+.nexon {
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title-box {
+  /* display: inline-block;
+  animation: linear 500ms cubic-bezier(0.86, 0, 0.07, 1) forwards; */
+  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+.nation {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: -3rem;
+  margin-top: 5rem;
+  border-radius: 0.6rem;
+  background-color: #2a5eef;
+  width: 30%;
+  color: white;
+}
+
+/* common */
+.title-box {
+  text-align: center;
+  line-height: 1.2rem;
+  padding-top: 2rem;
+  border-radius: 0.6rem;
+  width: 72.2rem;
+  height: 8rem;
+  background-color: #f2f5ff;
+  margin-top: -2rem;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 300rem;
+  padding: 0 5rem;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.title-box > h2 {
+  font-size: 1.7rem;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title-box > p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #666;
+  text-align: center;
+  margin-top: 1.2%;
+  margin-bottom: 0.8rem;
+}
+
+/* cardType */
+.card_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.card {
+  width: 32%;
+  background-color: #f5f5f5;
+}
+
+.card_body {
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.card_body.desc {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #e6ebff;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+/* text */
+.brn {
+  font-size: 1rem;
+  font-weight: 520;
+}
